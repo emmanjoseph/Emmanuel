@@ -11,8 +11,8 @@ export default function Hero() {
         className="-top-40 left-0 md:-top-20 md:left-60"
         fill="white"
       />
-      <div className="px-4 py-10 md:py-28">
-        <h1 className="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
+      <div className="px-4 pt-36 md:pt-28 pb-20">
+        <h1 className="relative z-10 mx-auto max-w-4xl text-center text-4xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300">
           {"Build and launch fast, modern Web and mobile apps."
             .split(" ")
             .map((word, index) => (
@@ -64,6 +64,7 @@ export default function Hero() {
           </button>
          
         </motion.div>
+
         <motion.div
           initial={{
             opacity: 0,
@@ -77,16 +78,10 @@ export default function Hero() {
             duration: 0.3,
             delay: 1.2,
           }}
-          className="relative z-10 mt-20 rounded-3xl border border-neutral-200 bg-neutral-100 p-4 shadow-md dark:border-neutral-800 dark:bg-neutral-900"
+          className="relative z-10 mt-10 rounded-3xl"
         >
-          <div className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
-            <Image
-              src="/screenshots/hero.webp"
-              alt="Landing page preview"
-              className="aspect-[16/9] h-auto w-full object-cover"
-              height={1000}
-              width={1000}
-            />
+          <div className="w-full max-sm:h-[400px]  overflow-hidden rounded-3xl border border-gray-300 dark:border-gray-700">
+            <video autoPlay loop muted src={'/screenshots/hero.mp4'} className="aspect-video object-cover rounded-3xl max-sm:h-full"/>
           </div>
         </motion.div>
       </div>

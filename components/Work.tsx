@@ -3,13 +3,13 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <section className='max-w-6xl mx-auto my-28 p-4 md:p-0' id='work'>
+    <section className='max-w-6xl mx-auto my-28 p-2 md:p-0' id='work'>
         <h1 className='text-4xl font-semibold text-center'>Selected Works</h1>
         <p className="text-base text-center py-4">
           Here is a selection of my latest projects
         </p>
 
-      <div className="my-5 space-y-5">
+      <div className="my-5 space-y-2">
   {/* Project 1: Prepwise */}
   <div className="bg-white/5 rounded-[55px] shadow-2xl border border-neutral-50/10">
     <div>
@@ -31,7 +31,7 @@ const Work = () => {
   </div>
 
   {/* Project 2: StoreIt */}
-  <div className="grid md:grid-cols-2 gap-5">
+  <div className="grid md:grid-cols-2 gap-2">
     <div className="bg-white/5 rounded-[55px] shadow-2xl backdrop-blur-3xl border border-neutral-50/10">
       <div>
         <Image

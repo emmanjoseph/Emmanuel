@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <section className="max-w-7xl mx-auto mt-20 p-4 md:p-0" id="about">
-      <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
+      <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-6 md:gap-2 h-full">
         
         {/* Grid 1 */}
         <div className="col-span-1 xl:row-span-3">

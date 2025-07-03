@@ -7,7 +7,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "motion/react";
-
+import Image from "next/image";
 import React, { useRef, useState } from "react";
 
 
@@ -235,8 +235,8 @@ export const NavbarLogo = () => {
     <a
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
-    >
-      <span className=" text-black dark:text-white font-bold">Emmanuel</span>
+    > <Image src={'/alien.png'} alt="icon" width={32} height={32}/>
+      <span className=" text-black dark:text-white font-bold text-base">Emmanuel</span>
     </a>
   );
 };

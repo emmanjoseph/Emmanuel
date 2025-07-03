@@ -14,6 +14,9 @@ const geistSans = Noto_Znamenny_Musical_Notation({
 export const metadata: Metadata = {
   title: "Emmanuel",
   description: "Emmanuel Mulwa.com",
+  icons:{
+     icon:"/alien.svg"
+  }
 };
 
 export default function RootLayout({
